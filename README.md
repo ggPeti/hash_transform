@@ -1,14 +1,18 @@
 # HashTransform
 
-This gem extends the Hash class with the following methods:
+This gem extends the Hash class with the following methods:  
 
 map_keys
-map_keys!
-map_values
-map_values!
 
-The bang version of each method will map the keys or values of the hash
-with the given block and change it. The non-bang version will return a
+map_keys!
+
+map_values
+
+map_values!   
+
+
+The bang version of each method will modify the keys or values of the hash
+according to the given block. The non-bang version will return a
 new hash.
 
 ## Installation
